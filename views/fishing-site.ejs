@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/script.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <title>fishingSite</title>
+  </head>
+  <body id="fishSitebody">
+    <div class="fishingButton">
+      <button type="button" class="btn" onclick="openPopup()">fishing</button>
+    </div>
+    <div class="fishPopup" id="fishPage">
+      <p id="name">Creature Name: <%= randomFish.name%></p>
+      <p id="descriptions">Descriptions: <%= randomFish.descriptions %></p>
+      <p id="size">Normal Size: <%= randomFish.size %></p>
+      <p id="fishWarning">dont stay here for too long, time pass really fast</p>
+      <button id="collectbtn" class="btn" onclick="closePopup()">
+        collect it
+      </button>
+    </div>
+
+    <img id="fishimage" src="" />
+    <div id="returnLink">
+      <a href="/collect"
+        ><img src="uploads/cabinet.png" id="returnCabinet"
+      /></a>
+
+      <a href="/"><img src="uploads/dock.png" id="dockimg" /></a>
+    </div>
+  </body>
+</html>

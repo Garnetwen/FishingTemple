@@ -1,0 +1,37 @@
+<html>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="script.js"></script>
+        <title>cabinet</title>
+      </head>
+      <body>
+        <button class="button" id="showCabinet">show cabinet</button>
+        <div class="shelf">
+          <div id="fishShelf">
+            <div class="firstCollectedFish">
+              <img id="collectedFishImage" src="" alt="empty for fish" onclick="statusPopup(event)" ondblclick="moveTemple(event)">
+              
+              <p id="collectFishtext" ></p>
+              <div class="statusPopUp" ><p id="fishCurrentStatus"></p></div>
+            </div>
+            <div class="secondCollectedFish" >
+              <img id="collectedSecondFishImage" src="" alt="empty for socks" onclick="statusPopup(event)" ondblclick="moveTemple(event)">
+              <p id="collectSecondFishtext" ></p>
+            <div class="statusPopUp" ><p id="fishSecondCurrentStatus"></p></div>
+            <p id="collectSecondFishtext" ></p>
+            </div>
+  
+            <div class="thirdCollectedFish" >
+              <img id="collectedThirdFishImage" src="" alt="empty for other stuff" onclick="statusPopup(event)" ondblclick="moveTemple(event)">
+            <p id="collectThirdFishtext" ></p>
+            <div class="statusPopUp" ><p id="fishThirdCurrentStatus"></p</div> 
+            </div>
+          </div>
+          
+          
+        </div>
+        <div class="returnbtn">
+          <a href="fishingSite" ><img src="uploads/fishingSite.png" id="returnFish"></a>
+        </div>
+    
+</html>
+
