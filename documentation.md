@@ -25,5 +25,16 @@ css:
 Trying to create audio:
 https://gomakethings.com/how-to-play-a-sound-with-javascript/
 
+
+https://github.com/user-attachments/assets/d4b21106-df13-4575-8e1f-c480f3c964ec
+<img width="1962" alt="Screenshot 2024-12-09 at 10 47 36" src="https://github.com/user-attachments/assets/d0df575d-878f-42cd-be20-e364adf65a62" />
+<img width="1050" alt="Screenshot 2024-12-07 at 19 27 26" src="https://github.com/user-attachments/assets/e114c241-3762-429c-a5ca-24c45daaf836" />
+<img width="1163" alt="Screenshot 2024-12-07 at 19 24 22" src="https://github.com/user-attachments/assets/b79343a9-4474-46cd-ace3-1da94896eb1d" />
+
+
+https://github.com/user-attachments/assets/1086d2a1-bc03-4145-980b-a83077bc7073
+
+
+
 https://www.youtube.com/watch?v=T9GWHFDcELQ
 ---
