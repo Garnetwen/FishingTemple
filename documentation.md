@@ -4,9 +4,26 @@ URL: [your project URL here]
 ---
 ## Process:
 Dec 10-12: fixing the css:) Find out that it will be easier to put a big div in the body, and display flex the body.
-Document your process here. This can be done via markdown in this file or a link to a Google Doc / Notion / shareable service.
-Be sure to include what you were successful with, what did not work for you, and any links you referenced for help (this includes but is not limited to: stackoverflow, MDN documentation, places you pulled art etc)
-If you used AI, be sure to cite it correctly via the [Harvard AI Citation Guide](https://guides.library.harvard.edu/c.php?g=1330621&p=10046069)
+
+**creating my own json file**
+I try to create my new database,because I couldn't find a free api about marine life.
+
+I learnt how to do the random pulling:
+https://stackoverflow.com/questions/43825595/how-to-get-a-random-record-from-my-nedb-database
+
+trying to create a Pop up page 
+learning youtube tutorial: 
+https://www.youtube.com/watch?v=foB3Ke5LsNY&t=43s
+
+1. realize i need another database for storing fish collected...
+2. the closePopup function always not working, I use console.log and found there is no respond. I listen to GPT and she said there is a conflict between onclick attribute of the button, and it fixed the problem.
+3. When I tried to view the object, it [Object HTMLelement], which I searched online, it requires the value.
+4. showed https://stackoverflow.com/questions/15383765/javascript-viewing-object-htmlinputelement
 
 
+css:
+Trying to create audio:
+https://gomakethings.com/how-to-play-a-sound-with-javascript/
+
+https://www.youtube.com/watch?v=T9GWHFDcELQ
 ---
