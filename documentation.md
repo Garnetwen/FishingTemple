@@ -1,6 +1,6 @@
 # Project 5
-URL: [your project URL here]
-
+URL: http://159.223.162.238:6001/
+https://pickled-oyster-544.notion.site/FINAL-PROJECT-146e64dfb701805a9798c3d876a1ea4d?pvs=4
 ---
 ## Process:
 Dec 10-12: fixing the css:) Find out that it will be easier to put a big div in the body, and display flex the body.
@@ -25,6 +25,7 @@ css:
 Trying to create audio:
 https://gomakethings.com/how-to-play-a-sound-with-javascript/
 
+video & screenshots process: 
 
 https://github.com/user-attachments/assets/d4b21106-df13-4575-8e1f-c480f3c964ec
 <img width="1962" alt="Screenshot 2024-12-09 at 10 47 36" src="https://github.com/user-attachments/assets/d0df575d-878f-42cd-be20-e364adf65a62" />
