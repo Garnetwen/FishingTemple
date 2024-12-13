@@ -1,8 +1,10 @@
 # Project 5
 URL: http://159.223.162.238:6001/
-https://pickled-oyster-544.notion.site/FINAL-PROJECT-146e64dfb701805a9798c3d876a1ea4d?pvs=4
+
 ---
 ## Process:
+
+https://pickled-oyster-544.notion.site/FINAL-PROJECT-146e64dfb701805a9798c3d876a1ea4d?pvs=4
 Dec 10-12: fixing the css:) Find out that it will be easier to put a big div in the body, and display flex the body.
 
 **creating my own json file**
