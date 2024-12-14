@@ -36,8 +36,15 @@ I try to create my new database,because I couldn't find a free api about marine 
 4. Do that with the other 3 fishs and their status change too.
 
    **makeing a pop up for checking the fish status by clicking the fish img**
-1. function I learnt from GPT is even.target.closest(), which allows me to  get the nearest Dom element, so it is the class,statusPopUp)
-   
+1. function I learnt from GPT is event.target.closest().
+2.syntax: *event.target:
+This property of the event object represents the element that initiated the event (e.g., the button that was clicked).
+closest():
+This method is called on the event.target and takes a CSS selector as an argument. It then searches up the DOM tree from the target element, looking for the first ancestor that matches the selector.*
+3. const popup = findDiv.querySelector(".statusPopUp"); 
+4. It allows me to  get the nearest Dom element div, so it is the class.statusPopup
+   not sure about the second benefit 
+   <need to figure out this part>
     
 
 I learnt how to do the random pulling(same as json file):
