@@ -12,7 +12,21 @@ Dec 10-12: fixing the css:) Find out that it will be easier to put a big div in 
 **creating my own json file**
 I try to create my new database,because I couldn't find a free api about marine life.
 
-I learnt how to do the random pulling:
+    **pulling random fish and show it in the client side**
+1. first I set up the server side to read the file, and set up the random pull function to get a random fish from the json file I created using a function getRandomFish() and send back to client side.
+2. I create a fishing button, with function onclick(openPopup), where it use the fetch to get the random fish from the server side. And then I use the data.json to parsed data into the json format.**It is important to use two .then() function to wait for the parsed data to be converted into json** (unless it will always show undefine)
+3. I assign the global variable localData as the parsedData (local data) so the global variable can be use in elsewhere without mess around other functions.
+
+   **get 3 fish from the random pulling**
+1. set a fishArray for storing fish data, set it as JSON.parse(localStorage.getItem("fishArray")) || []; so it will not return undefine as the first time.
+2. set up a function for checking Fish array *function checkLocalData()*: if the length of array is larger or equal than 3, it means that it has more than three fishs in there, so the warning's innerHTML will be "cannnot put more than 3 fish". The second check point is that if we already got the same fish in our array, we will use array.some() to go over the array, as soon as it find the name of the fish in the array (fish.name) matched the the fish we are trying to collect (localData.name), we will not push the data and change the warning as "cannot be the same fish". The final check, which is the condition where we don't have 3 fish in our cabinet and the fish we are collecting is not the same as the ones in our cabinet, we push the localData into the fishArray.
+   **after collected the fish, start counting down the time for fish status**
+1. use a function to update fish status, and to update the specific fish status, I need to find the exact fish when I collected it. So i use the name of the fish as the pass in data (*localName = localData.name) and I set it the setTimeout function (*setTimeout(updateStaleStatus, 10000, localName);*),
+2. after passing in the data, I use the array.find() to find the fish I collected. 
+   
+    
+
+I learnt how to do the random pulling(same as json file):
 https://stackoverflow.com/questions/43825595/how-to-get-a-random-record-from-my-nedb-database
 
 trying to create a Pop up page 
